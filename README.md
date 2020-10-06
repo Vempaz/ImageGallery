@@ -8,7 +8,7 @@
 * [Status](#status)
 
 ## General info
-A image gallery that lets you create an album, upload a image to any of the existing albums, delete a image from albums or the albums altogether.
+An image gallery that lets you to create an album, upload an image to any of the existing albums, delete an image from albums or the albums altogether.
 	
 ## Technologies
 Project is created with:
