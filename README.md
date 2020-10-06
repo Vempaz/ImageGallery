@@ -1,12 +1,30 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Image Gallery
+>  Image Gallery using Laravel.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## Table of Contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
 
-## Photo Image Gallery
+## General info
+A image gallery that lets you create an album, upload a image to any of the existing albums, delete a image from albums or the albums altogether.
+	
+## Technologies
+Project is created with:
+* Laravel Framework 7.3.0
+* Bootswatch
+* Saas
+* MySQL
+	
+## Setup
+To run this project, first, we have to replace the database we want to use in the `.env` file located at the root of the project: 
+```
+'DB_DATABASE=namedDatabaseExample'
+```
+then, open your cmd and run the next line `php artisan serve`.
 
-*Create albums, add photos to the albums and remove whichever you don't like.*
+![demo](/demo/imagegallery.gif)
+
+## Status
+Project is:  _finished
